@@ -3,9 +3,8 @@ import {FaGithub,FaInstagram,FaYoutube} from "react-icons/fa"
 
 
 const socials = [
-    {icon: <FaGithub/>, path:""},
+    {icon: <FaGithub/>, path:"https://github.com/Eier01"},
     {icon: <FaInstagram/>, path:""},
-    {icon: <FaYoutube/>, path:""},
 ]
 
 const Social = ({containerStyles, iconStyles}) => {
@@ -13,7 +12,7 @@ const Social = ({containerStyles, iconStyles}) => {
         <div className={containerStyles}>
             {socials.map((item, index) =>{
                 return(
-                    <Link key={index} href={item.path} className={iconStyles}>
+                    <Link key={index} href={item.path} className={iconStyles} target="_blank">
                         {item.icon}
                     </Link>
                 )

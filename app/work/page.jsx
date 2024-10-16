@@ -59,7 +59,7 @@ const projects =[
         stack: [{name:"Next.js 13"},{name:"Tailwind"},{name:"Framer motion"}],
         image:'/assets/work/portafolio.jpeg',
         live: "",
-        github: "https://github.com/Eier01?tab=repositories",
+        github: "https://github.com/Eier01/Portafolio0",
     },
 ]
 
